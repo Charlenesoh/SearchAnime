@@ -1,4 +1,4 @@
- function dogs(){
+ function dogs(){                                      // fetching the details for the dogs and their details// 
     fetch("https://api.thedogapi.com/v1/breeds")
     .then(response =>{
         if(!response.ok){
@@ -13,7 +13,7 @@
             return `
               <div class="Details">
                   <div class="user">
-                      <p><img src="${user.image.url}" id="Image" alt="${user.name}"></p>
+                      <p><img src="${user.image.url}" id="image" alt="${user.name}"></p>
                       <p>Character No: ${user.id}</p>
                       <p>Name: ${user.name}</p>
                       <p>Life Span: ${user.life_span}</p>
@@ -31,7 +31,7 @@
         
     })
     
-    .catch(error=>{
+    .catch(error=>{                       
         console.log(error);
     })
  
@@ -39,9 +39,8 @@
 dogs()
 
 
-var mybutton = document.getElementById("myBtn");
+var mybutton = document.getElementById("myBtn");   // Scripting for the Back to top button // 
 
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -52,7 +51,6 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
