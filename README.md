@@ -1,64 +1,41 @@
 
 # SearchForDoggos
 
-This Site is for users to search for their 
+This Site is for users to search for Dog breeds and some extra details related to them. This is for any users who are wanting to find a suiitabe dog to adopt. This website would be one of the suitable ones for them to go through all the type of dogs even including their picture, and users can decide on which breed is best for them.  
 
 ## Design Process
 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+As the Title says "SearchForDoggos" it is a page for users to take a look at the different dogs and thier details. The homepage consist of nav bar  with 2 button (Home and Breed and Details) which brings you to the different pages.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+ The Home page consist of a picture filled with chowchows, after hovering over the photos of the chowchow dogs, a bunch of text will appear which is a brief introduction of this website. and below it is a contact owner page (which does not work) but it is to contact me if they have any enquires about the informations. 
+ 
+ Going to the Breeds and Details page, it appears a bunch of dogs including details under each pictures like "  Character No, Name, Life Span, Breed Group, Temperament.". 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+Due to the long length of this page, i have added a back to top button by the bottom right so it makes it easier for users to go back to the top after scrolling down all the way to the bottom. 
 
-## Features
+The colours of this page is made to be bright and light to brighten up users mood when they come to use this page. there is a strong contrast between the colours of the text and the background so users do not spoil thier eyes when looking at the texts for too long.  
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+XD Wireframe : https://xd.adobe.com/view/3670d064-08ec-4e4d-ac69-a016529fcd5a-6323/
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+## Future Features
 
-### Features Left to Implement
-- Another feature idea
+In the future if possible i would like to work along together with pet shops and animal adoption centers to put thier contact numbers onto so that when users come across this website and find a suitable dog breed, the contacts of the centers are easily accessed by users to call or text to adopt or buy the dog.  
+
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- HTML
+- CSS Styling 
+- JavaScript
+- API (https://api.thedogapi.com/v1/breeds)
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
-
-## Testing
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
+    w3schools
+    Github
+    thedogapi
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
-
-### Acknowledgements
-
-- I received inspiration for this project from X
+    ChowChow photo : https://www.k9rl.com/dog-breeds/companion-dogs/chow-chow/
