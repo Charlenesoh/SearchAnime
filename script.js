@@ -11,14 +11,14 @@
         console.log(data);
         const html = data.map(user=>{
             return `
-              <div class="row">
+              <div class="Details">
                   <div class="user">
-                      <p><img src="${user.image.url}" id="image" alt="${user.name}"></p>
+                      <p><img src="${user.image.url}" id="Image" alt="${user.name}"></p>
                       <p>Character No: ${user.id}</p>
                       <p>Name: ${user.name}</p>
                       <p>Life Span: ${user.life_span}</p>
-                      <p>breed group: ${user.breed_group} </p>
-                      <p>temperament: ${user.temperament} <P> 
+                      <p>Breed Group: ${user.breed_group} </p>
+                      <p>Temperament: ${user.temperament} <P> 
                   </div>
               </div>`;
         })
