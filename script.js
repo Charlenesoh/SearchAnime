@@ -18,8 +18,7 @@
                       <p>Name: ${user.name}</p>
                       <p>Life Span: ${user.life_span}</p>
                       <p>breed group: ${user.breed_group} </p>
-                      <p>temperament: ${user.temperament} <P>
-                      
+                      <p>temperament: ${user.temperament} <P> 
                   </div>
               </div>`;
         })
@@ -28,6 +27,7 @@
         console.log(html);
         
         document.querySelector('#app').insertAdjacentHTML('afterbegin', html); 
+        
         
     })
     

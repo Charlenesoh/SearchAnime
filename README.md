@@ -1,11 +1,7 @@
-# SearchAnime
 
+# SearchForDoggos
 
-# Your Project's Name
-
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+This Site is for users to search for their 
 
 ## Design Process
 
