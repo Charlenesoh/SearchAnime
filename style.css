@@ -236,14 +236,15 @@ html {
   
   
   
-  header h2 {        /* All titles of the three html pages */
+  header h2 {        /* All titles of the 2 html pages */
      font-size: 40px; 
      text-align: center;
+     color: rgb(223, 35, 35);
   
   }
   
   body {              /* Main background design */
-      background-color: rgb(229, 218, 255);
+      background-color: rgb(255, 212, 227);
   }
   
   .int{
@@ -272,7 +273,7 @@ html {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #f4ddf8;
+    background-color: #e1bcff;
     
   }
   
@@ -281,7 +282,7 @@ html {
   }
   
   .intro {                        /* Styling for text in the overlays */
-    color: rgb(0, 0, 0);
+    color:rgb(223, 35, 35);
     font-size: 35px;
     position: absolute;
     top: 50%;
@@ -299,8 +300,8 @@ html {
   
   nav{                          /* Styling for navigation bar ontop */
       width: 100%;
-      height: 60px;
-      background-color: #fca8a8;
+      height: 80px;
+      background-color: #956eff;
       margin: 0;
       padding: 0;
   }
@@ -316,15 +317,15 @@ html {
   nav ul li a{                   /* Styling for navigation bar ontop */
       display:block;
       font-family: Arial, Helvetica, sans-serif;
-      color: rgb(255, 255, 255);
-      font-size: 14px;
-      padding: 22px 14px;
+      color: #ffffff;
+      font-size: 30px;
+      padding: 22px 15px;
       text-decoration: none;
   }
   
   nav a:hover {                  /* Styling for navigation bar ontop for hover effect*/
-      background-color: rgb(182, 241, 239);
-      color: rgb(179, 125, 250);
+      background-color: rgb(196, 173, 252);
+      color:  rgb(255, 255, 255);
     }
   
   body ul{                      /* Styling for navigation bar ontop */
@@ -375,23 +376,15 @@ html {
       justify-content: space-around;
     }
   
-    .links{                   /* Styling for links to other websites in Main page */
-      border-style: solid;
-      padding: 2%;
-      border: 5px;
-      font-size: 30px;
-      background-color: rgb(247, 210, 234);
-      text-align: center;
-    }
   .contact {              /* Styling for contact me in main page */
       
-      color: rgb(245, 202, 245);
+      color: rgb(223, 35, 35);
       margin : 5px;
       justify-content: center;
       font-size: 25px;
       text-align: center;
       border-radius: 25%;
-      background-color: rgb(52, 40, 163);
+      background-color: rgb(188, 180, 253);
       font-family: 'Montserrat', 'Noto Serif KR' , 'Arial' sans-serif;
   }
   
@@ -421,7 +414,7 @@ html {
       border: 5px solid rgb(254, 255, 211);
     }
   
-  
+    
   
   
   @media screen and (max-width: 600px){         /* media queries for the whole assignment */
